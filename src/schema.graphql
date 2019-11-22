@@ -1,0 +1,11 @@
+type Cota {
+  id: ID!
+}
+
+type Query {
+  cotas: [Cota!]!
+}
+
+type Mutation {
+  createCota: Cota
+}
